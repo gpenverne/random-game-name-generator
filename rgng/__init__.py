@@ -8,7 +8,7 @@ https://play.google.com/store/apps/details?id=com.vgname.vgnamegenerator
 """
 
 from numpy.random import choice
-from modules import TokenFactory as Factory
+from .modules import TokenFactory as Factory
 
 # in numpy, we use two arguments for random.choice(), the first one is
 # a list of possible values, and the second one is a list with the same size,
