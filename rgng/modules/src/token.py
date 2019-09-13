@@ -67,7 +67,7 @@ class Token(object):
             with open(DATA_DIR + name + ".json") as data:
                 self.data = json.load(data)
         except IOError:
-            print "Cannot open file for ", name
+            print("Cannot open file for "+name)
 
 
 
