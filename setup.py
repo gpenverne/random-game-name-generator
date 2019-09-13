@@ -10,6 +10,7 @@ setuptools.setup(
     author_email="",
     description="Python port of the name generator",
     long_description=long_description,
+    py_modules=["rgng"],
     long_description_content_type="text/markdown",
     url="https://github.com/gpenverne/random-game-name-generator",
     packages=setuptools.find_packages(include=['rgng', 'rgng.*']),
