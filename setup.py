@@ -1,15 +1,12 @@
-import setuptools
+from setuptools import setup
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
-setuptools.setup(
+setup(
     name="rgng",
     version="0.0.1",
     author="enriqueav",
     author_email="",
     description="Python port of the name generator",
-    long_description=long_description,
+    long_description="Python port of the name generator",
     py_modules=["rgng"],
     long_description_content_type="text/markdown",
     url="https://github.com/gpenverne/random-game-name-generator",

@@ -56,4 +56,4 @@ def generate_name():
 
 
 if __name__ == '__main__':
-    print generate_name()
+    print(generate_name())
