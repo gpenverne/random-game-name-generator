@@ -13,7 +13,7 @@ setuptools.setup(
     py_modules=["rgng"],
     long_description_content_type="text/markdown",
     url="https://github.com/gpenverne/random-game-name-generator",
-    packages=setuptools.find_packages(include=['rgng', 'rgng.*']),
+    packages=['rgng'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
